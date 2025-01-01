@@ -7,9 +7,6 @@ Given a binary string s, you are required to split the string into two non-empty
 Solution (Java)
 The following code efficiently computes the maximum score after splitting the string:
 
-java
-Copy code
-class Solution {
     public int maxScore(String s) {
         int i, j, n = s.length();
         int one = 0, zero = 0;
@@ -42,6 +39,8 @@ class Solution {
         return max;
     }
 }
+
+
 Performance
 Runtime: 7ms (Beats 18.78% of submissions)
 Memory: 43.26MB (Beats 9.18% of submissions)
